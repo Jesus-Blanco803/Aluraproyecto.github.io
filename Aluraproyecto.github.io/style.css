@@ -1,0 +1,201 @@
+* {
+    background-image: url(/imagenes/dino-not-found-4k-wallpaper.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 150%;
+  } 
+  
+  .logo{
+     padding-top: 15px;
+     margin-left: 15px;
+     width: 16%;
+    
+  }
+  
+  main{
+    display: flex;
+    margin-bottom: 0px;
+    margin-left: 80px;
+  
+  }
+  
+  .text-area{
+    border: none;
+    color: black;
+    margin-top: 90px;
+    text-transform: lowercase;
+  }
+  
+  ::placeholder { color:black; }
+  .text-area:focus {
+    outline: none;
+  }
+  .mensaje{
+     background: black;
+     background-image: url(/imagenes/Muñeco.png);
+     background-position: center; 
+     background-repeat: no-repeat;
+     border: none;
+     border-radius: 24px;
+     color:white;
+     position: absolute;
+     width: 400px;
+     height: 944px;
+     left: 1000px;
+     top: 40px;
+     text-align: center;
+     margin-top: 10px;
+     margin-left: 10px;
+     box-shadow: 10px 10px 30px 15px #000000;
+  }
+  
+  .mensaje:focus{
+    outline: none;
+  }
+  
+  
+  .ingresetex{
+    width: 336px;
+  height: 48px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #495057;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  
+  }
+  
+  .botones{
+    display: flex;
+    margin-top: 20px;
+    padding: 22px;
+    
+  }
+  
+  .btnen{
+    background-color: tomato;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    height: 67px;
+    width: 326px;
+    margin: 10px;
+    box-shadow: 10px 10px 30px 15px #000000;
+  
+  }
+  
+  .btnen:hover{
+    background: tomato;
+    transform: scale(1.20);
+  }
+  
+  .btnds{
+   background-color: black;
+   border:  1px solid tomato;
+   border-radius: 24px;
+   color:tomato;
+   cursor: pointer;
+   height: 67px;
+   width: 328px;
+   margin: 10px;
+   box-shadow: 10px 10px 30px 15px #000000;
+   
+  }
+  
+  .btnds:hover{
+    background: black;
+    transform: scale(1.20);
+  }
+  
+   .copy{
+    border: 1px solid tomato;
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    width: 370px;
+    height: 67px;
+    left: 1032px;
+    top: 885px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+  }
+  
+  .copy:hover{
+    background: tomato;
+    transform: scale(1.20);
+  }
+  
+  .informacion {
+    color: rgb(12, 12, 12);
+    font-size: 18px;
+  }
+  
+  footer{
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .box-footer{
+    display: flex;
+    align-items: baseline;
+    font-size: 1rem;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  footer span {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 1.3rem;
+  }
+  
+  footer span:nth-child(1) {
+    color: #f21010;
+  }
+  
+  footer span:nth-child(2) {
+    width: 1.1rem;
+    margin: 1rem 1rem;
+  }
+  
+  footer span:nth-child(3) {
+    color: red;
+  }
+  
+  footer span:nth-child(4) {
+    color: #99948e;
+    margin: 0.5rem 0.5rem;
+  }
+  
+  .icon_linkedin {
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-left: 0.7rem;
+    margin-right: 0.4rem;
+  }
+  
+  .icon_github {
+    width: 2.2rem;
+    height: 2.2rem;
+   
+  }

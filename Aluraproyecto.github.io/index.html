@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/reset.css">
+  <link rel="stylesheet" href="/style.css"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <title>Encriptador</title>
+</head>
+
+<body>
+
+  <header>
+        <img class="logo" src="/imagenes/Logo.png" alt="Logo de Alura">
+  </header>
+
+  <main>
+     <sectiom>
+             <textArea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textArea>
+          <div>
+               <h6 class="informacion">Solo letras minusculas y sin acentos</h6>
+          </div>
+          <div class="botones">
+              <button class="btnen" onclick= "btnEncriptar()" >Encriptar</button>
+              <button class="btnds" onclick= "btnDesencriptar()">Desencriptar</button>
+          </div>
+          
+     </sectiom>   
+            <textArea class="mensaje"  cols="20" rows="10" input id="mensaje" type="text"></textArea>
+     <section>
+            <div>
+               <button class="copy" id="copy">Copiar</button>
+            </div> 
+     </sectiom>
+  </main>
+  <footer>
+    <div class="box-footer">
+              <span>&copy; 2023 | Jesús Blanco</span>
+              <a href="https://linkedin.com/in/jesús-blanco-1123721ba" target="_blank"><img class="icon_linkedin"
+              src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" alt="linkedIn"></a>
+     </div>
+  </footer>
+     <script src="/script.js"></script>
+  </body>
+
+
+</html>
